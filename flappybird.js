@@ -82,9 +82,7 @@ function update() {
         localStorage.setItem('score', score);
 
         // Redirect to Highscore page
-        setTimeout(function () {
-            window.location.href = "Highscore.html";
-        }, 10);
+  
 
         return;
     }
