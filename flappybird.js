@@ -35,12 +35,6 @@ let gravity = 0.3;
 let gameOver = false;
 let score = 0;
 
-//   function setTime() {
-//         console.log("Game will start in 3 seconds")
-//     }
-//     setTimeout(setTime, 3000);
-//     console.log("Get Started");
-
 window.onload = function () {
     board = document.getElementById("board");
     board.height = boardHeight;
