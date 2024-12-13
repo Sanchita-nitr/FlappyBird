@@ -25,9 +25,9 @@ body, html {
 /* Responsive Design for Small Devices */
 @media screen and (max-width: 700px) {
     #background {
-        background-size: cover; /* Full screen background */
-        height: 100vh;
-        background-repeat: no-repeat; 
+ /* Full screen background */
+        background-size: 100% 100%;
+
    /* Center the background */
     }
 }
@@ -35,8 +35,8 @@ body, html {
 /* Responsive Design for Tablets */
 @media screen and (min-width: 701px) and (max-width: 1024px) {
     #background {
-        background-size: cover;/* Full screen background */
-        height: 100vh;
+/* Full screen background */
+        background-size: 100% 100%;
         background-repeat: no-repeat; 
 
  /* Center the background */
@@ -46,9 +46,6 @@ body, html {
 /* Responsive Design for Large Screens */
 @media screen and (min-width: 1025px) {
     #background {
-        background-size: cover; /* Full screen background */
-        height: 100vh;
-        background-repeat: no-repeat; 
-   ; /* Center the background */
+        background-size: 100% 100%;
     }
 }
