@@ -1,5 +1,5 @@
 body{
-    background-image: image-set("Gemini_Generated_Image_u5kbngu5kbngu5kb.jpg");
+    background-image: url('Gemini_Generated_Image_u5kbngu5kbngu5kb.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
