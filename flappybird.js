@@ -197,3 +197,4 @@ function movebirdbytouchstart(e){
         gameOver = false;
     }
 }
+
