@@ -44,27 +44,21 @@
     background-image: url("./Gemini_Generated_Image_u5kbngu5kbngu5kb.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
 }
 
 /* Responsive Design for Small Devices */
 @media screen and (max-width: 700px) {
     #board {
+        background-image: url("./photo-1513002749550-c59d786b8e6c.jpeg");
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat; 
-    }
-
-    body {
-        font-size: 16px;
     }
 }
 
 /* Responsive Design for Tablets */
 @media screen and (min-width: 701px) and (max-width: 1024px) {
-    body {
-        font-size: 18px;
-    }
-
     #board {
         background-size: cover;
         background-size: 100% 100%;
@@ -74,10 +68,6 @@
 
 /* Responsive Design for Large Screens */
 @media screen and (min-width: 1025px) {
-    body {
-        font-size: 20px;
-    }
-
     #board {
         background-size: cover;
         background-size: 100% 100%;
