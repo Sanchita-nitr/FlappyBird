@@ -50,7 +50,7 @@
 /* Responsive Design for Small Devices */
 @media screen and (max-width: 700px) {
     #board {
-        background-image: url("./photo-1513002749550-c59d786b8e6c.jpeg");
+        
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat; 

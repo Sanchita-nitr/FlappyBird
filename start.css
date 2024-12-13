@@ -8,26 +8,26 @@ html {
 #background {
     background-image: url("Gemini_Generated_Image_syypdasyypdasyyp.jpg");
     background-size: 100% 100%;
-    background-size: cover;
+
 }
 
 @media screen and (max-width: 700px) {
     #background {
         background-size: 100% 100%;
-        background-size: cover;
+ 
     }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1024px) {
     #background {
         background-size: 100% 100%;
-        background-size: cover;
+
     }
 }
 
 @media screen and (min-width: 1025px) {
     #background {
         background-size: 100% 100%;
-        background-size: cover;
+
     }
 }
