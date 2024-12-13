@@ -1,15 +1,67 @@
-body{
+/* body{
     background-image: url('Gemini_Generated_Image_u5kbngu5kbngu5kb.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
 }
+
+#board {
+    
+    background-image: url("./Gemini_Generated_Image_u5kbngu5kbngu5kb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+/* Responsive Design for Small Devices */
+@media screen and (max-width: 700px) {
+    #board {
+        
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+}
+
+/* Responsive Design for Tablets */
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+    #board {
+        background-size: cover;
+        background-size: 100% 100%;
+        background-repeat: no-repeat; 
+    }
+}
+
+/* Responsive Design for Large Screens */
+@media screen and (min-width: 1025px) {
+    #board {
+        background-size: cover;
+        background-size: 100% 100%;
+        background-repeat: no-repeat; 
+    }
+}
+
+
 .HighScore{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+line-height: 2em;
 
 }
 .HighScore p{
