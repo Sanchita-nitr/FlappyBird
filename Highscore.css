@@ -17,9 +17,10 @@ body {
     text-align: center;
 
     overflow: hidden;
+    background-size: 100% 100%;
     
     background-image: url('Gemini_Generated_Image_u5kbngu5kbngu5kb.jpg');
-    background-size: cover;
+
     background-repeat: no-repeat;
     display: flex;
 }
@@ -29,26 +30,25 @@ body {
     body {
         
         background-size: 100% 100%;
-        background-position: center;
-        background-repeat: no-repeat; 
+       
     }
 }
 
 /* Responsive Design for Tablets */
 @media screen and (min-width: 701px) and (max-width: 1024px) {
     body{
-        background-size: cover;
+
         background-size: 100% 100%;
-        background-repeat: no-repeat; 
+   
     }
 }
 
 /* Responsive Design for Large Screens */
 @media screen and (min-width: 1025px) {
     body {
-        background-size: cover;
+   
         background-size: 100% 100%;
-        background-repeat: no-repeat; 
+   
     }
 }
 
@@ -58,7 +58,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-line-height: 2em;
+font-weight: 600; 
+
 
 }
 .HighScore p{
