@@ -1,0 +1,12 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#background {
+
+    background-image: url('Gemini_Generated_Image_syypdasyypdasyyp.jpg');
+    background-size: 100% 100%;
+
+}

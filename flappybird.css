@@ -1,0 +1,27 @@
+body {
+    position: fixed;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#board {
+    background-image: url("./Gemini_Generated_Image_u5kbngu5kbngu5kb.jpg");
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width:700px){
+    
+#board {
+    background-image: url("./Gemini_Generated_Image_u5kbngu5kbngu5kb.jpg");
+    background-size: 100% 100%;
+}
+
+    
+}
+
+
+
+
+

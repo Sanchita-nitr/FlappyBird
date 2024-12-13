@@ -1,0 +1,37 @@
+body{
+    background-image: image-set("Gamebg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.HighScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.HighScore p{
+    font-size: 100px;
+    font-weight: 600; 
+    color: white;  
+}
+
+
+.button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    font-size: 80px;
+
+}
+
+a{
+    font-family: cursive;
+    text-decoration: none;
+    color: black;
+}
