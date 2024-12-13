@@ -15,13 +15,10 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
-    overflow: hidden;
-}
 
-#board {
+    overflow: hidden;
     
-    background-image: url("./Gemini_Generated_Image_u5kbngu5kbngu5kb.jpg");
+    background-image: url('Gemini_Generated_Image_u5kbngu5kbngu5kb.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -29,7 +26,7 @@ body {
 
 /* Responsive Design for Small Devices */
 @media screen and (max-width: 700px) {
-    #board {
+    body {
         
         background-size: 100% 100%;
         background-position: center;
@@ -39,7 +36,7 @@ body {
 
 /* Responsive Design for Tablets */
 @media screen and (min-width: 701px) and (max-width: 1024px) {
-    #board {
+    body{
         background-size: cover;
         background-size: 100% 100%;
         background-repeat: no-repeat; 
@@ -48,7 +45,7 @@ body {
 
 /* Responsive Design for Large Screens */
 @media screen and (min-width: 1025px) {
-    #board {
+    body {
         background-size: cover;
         background-size: 100% 100%;
         background-repeat: no-repeat; 
