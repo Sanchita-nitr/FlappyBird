@@ -1,4 +1,4 @@
-body, html {
+/* body, html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -8,6 +8,41 @@ body, html {
 
     background-image: url('Gemini_Generated_Image_syypdasyypdasyyp.jpg');
     background-size: 100% 100%;
-    background-size: cover;
+} */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
+#background {
+    background-image: url('Gemini_Generated_Image_syypdasyypdasyyp.jpg');
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: center center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent background repetition */
+    height: 100vh; /* Ensure the background covers the full height of the viewport */
+}
+
+/* Responsive Design for Small Devices */
+@media screen and (max-width: 700px) {
+    #background {
+        background-size: cover; /* Full screen background */
+        background-position: center center; /* Center the background */
+    }
+}
+
+/* Responsive Design for Tablets */
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+    #background {
+        background-size: cover; /* Full screen background */
+        background-position: center center; /* Center the background */
+    }
+}
+
+/* Responsive Design for Large Screens */
+@media screen and (min-width: 1025px) {
+    #background {
+        background-size: cover; /* Full screen background */
+        background-position: center center; /* Center the background */
+    }
 }
