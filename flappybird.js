@@ -121,8 +121,8 @@ function update() {
     }
 
     // Draw score
-    context.fillStyle = "white";
-    context.font = "45px sans-serif";
+    context.fillStyle = "black";
+    context.font = "50px sans-serif";
     context.fillText(score, 30, 60);
 
     if (gameOver) {
