@@ -68,31 +68,29 @@ window.onload = function () {
 function showHighScorePage() {
     window.location.href = "Highscore.html";
 }
-
 function update() {
     requestAnimationFrame(update);
     if (gameOver) {
         board.style.opacity = 1;
 
-        if (score > localStorage.getItem('highScore')) {
+        // Update high score
+        if (score > (localStorage.getItem('highScore') || 0)) {
             localStorage.setItem('highScore', score);
         }
-        
-        if (score > localStorage.getItem('score')) {
-            localStorage.setItem('score', score);
-        }
-        
+
+        // Always update the last game score
+        localStorage.setItem('score', score);
+
+        // Redirect to Highscore page
         setTimeout(function () {
             window.location.href = "Highscore.html";
-            showHighScorePage();
-
         }, 10);
 
         return;
     }
     context.clearRect(0, 0, board.width, board.height);
 
-    //bird
+    // Bird movement
     velocityY += gravity;
     bird.y = Math.max(bird.y + velocityY, 0);
     context.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height);
@@ -101,41 +99,38 @@ function update() {
         gameOver = true;
     }
 
-    //pipes
-
+    // Pipes
     for (let i = 0; i < pipeArray.length; i++) {
         let pipe = pipeArray[i];
         pipe.x += velocityX;
         context.drawImage(pipe.img, pipe.x, pipe.y, pipe.width, pipe.height);
 
         if (!pipe.passed && bird.x > pipe.x + pipe.width) {
-            score += 0.5;
+            score += 0.5; // Increment score
             pipe.passed = true;
         }
 
         if (detectCollision(bird, pipe)) {
             gameOver = true;
-
         }
     }
 
-    //clear pipes
+    // Clear offscreen pipes
     while (pipeArray.length > 0 && pipeArray[0].x < -pipeWidth) {
         pipeArray.shift();
     }
 
-    //score
-
+    // Draw score
     context.fillStyle = "white";
     context.font = "45px sans-serif";
-    context.fillText(score, 30,  60);
+    context.fillText(score, 30, 60);
 
     if (gameOver) {
-        
         context.fillText("GAME OVER", 30, 250);
         context.drawImage(birdImgDie, bird.x, bird.y, bird.width, bird.height);
     }
 }
+
 
 function placePipes() {
     if (gameOver) {
