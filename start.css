@@ -1,49 +1,27 @@
-/* body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
 #background {
-
-    background-image: url('Gemini_Generated_Image_syypdasyypdasyyp.jpg');
+    background-image: url("Gemini_Generated_Image_syypdasyypdasyyp.jpg");
     background-size: 100% 100%;
-} */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
 }
 
-#background {
-    background-image: url('Gemini_Generated_Image_syypdasyypdasyyp.jpg');
-    background-size: 100% 100%;
-   
-  
-}
-
-/* Responsive Design for Small Devices */
 @media screen and (max-width: 700px) {
     #background {
- /* Full screen background */
         background-size: 100% 100%;
-
-   /* Center the background */
     }
 }
 
-/* Responsive Design for Tablets */
 @media screen and (min-width: 701px) and (max-width: 1024px) {
     #background {
-/* Full screen background */
         background-size: 100% 100%;
-        background-repeat: no-repeat; 
-
- /* Center the background */
     }
 }
 
-/* Responsive Design for Large Screens */
 @media screen and (min-width: 1025px) {
     #background {
         background-size: 100% 100%;

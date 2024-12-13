@@ -14,9 +14,11 @@ body{
 .HighScore p{
     font-size: 100px;
     font-weight: 600; 
-    color: white;  
+    color: black;  
 }
-
+.Score p{
+    color: black;  
+}
 
 .button{
 
