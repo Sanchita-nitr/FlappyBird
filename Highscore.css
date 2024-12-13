@@ -19,6 +19,7 @@ body {
 /* Responsive Design for Small Devices */
 @media screen and (max-width: 700px) {
     body {
+        font-weight: 600;
         background-size: 100% 100%;
 
     }
@@ -27,7 +28,7 @@ body {
 /* Responsive Design for Tablets */
 @media screen and (min-width: 701px) and (max-width: 1024px) {
     body {
-
+        font-weight: 600;
         background-size: 100% 100%;
 
     }
@@ -36,7 +37,7 @@ body {
 /* Responsive Design for Large Screens */
 @media screen and (min-width: 1025px) {
     body {
-
+        font-weight: 600;
         background-size: 100% 100%;
 
     }
@@ -61,6 +62,8 @@ body {
 
 .Score p {
     color: black;
+    font-size: 100px;
+    font-weight: 600;
 }
 
 .button {
