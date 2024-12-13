@@ -27,15 +27,20 @@ body, html {
 @media screen and (max-width: 700px) {
     #background {
         background-size: cover; /* Full screen background */
-        background-position: center center; /* Center the background */
+        height: 100vh;
+        background-repeat: no-repeat; 
+   /* Center the background */
     }
 }
 
 /* Responsive Design for Tablets */
 @media screen and (min-width: 701px) and (max-width: 1024px) {
     #background {
-        background-size: cover; /* Full screen background */
-        background-position: center center; /* Center the background */
+        background-size: cover;/* Full screen background */
+        height: 100vh;
+        background-repeat: no-repeat; 
+
+ /* Center the background */
     }
 }
 
@@ -43,6 +48,8 @@ body, html {
 @media screen and (min-width: 1025px) {
     #background {
         background-size: cover; /* Full screen background */
-        background-position: center center; /* Center the background */
+        height: 100vh;
+        background-repeat: no-repeat; 
+   ; /* Center the background */
     }
 }
